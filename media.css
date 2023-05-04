@@ -1,0 +1,30 @@
+@media screen and (max-width:1050px){
+    .main-section .textarea{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:850px){
+    .main-section{
+        padding-inline:15px;
+    }
+}
+
+@media screen and (max-width:500px){
+    header{
+        display:none;
+
+    }
+    main{
+        display:none;
+    }
+    .mainheading{
+        display:flex;
+        height:100%;
+        width:100%;
+        font-size:3rem;
+        justify-content: center;
+        align-items: center;
+        color:red;
+    }
+}
